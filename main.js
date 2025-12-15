@@ -18,8 +18,18 @@ fetchStudents(rawData => {
   console.log("Testing Immutability:");
   console.log("Original ID:", students[0].id);
   console.log("Attempting to change ID to 999...");
+ 
+try {
   students[0].id = 999;
-  console.log("Final ID:", students[0].id, "(Success: ID did not change)\n");
+} catch (error) {
+  console.log("Error caught:", error.message);
+}
+
+console.log(
+  "Final ID:",
+  students[0].id,
+  "(Success: ID did not change)\n"
+);
 
   console.log("--- Analytics Report ---");
 
