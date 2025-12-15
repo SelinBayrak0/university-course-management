@@ -3,7 +3,7 @@
 This project is a simple University Course Management System developed using JavaScript.  
 It demonstrates the use of ES6 modules, classes, asynchronous callbacks, object immutability, and array manipulation.
 
----
+
 
 ## File Organization
 
