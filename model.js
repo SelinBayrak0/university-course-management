@@ -1,5 +1,3 @@
-// models.js
-
 class Student {
   constructor(id, name, courses = []) {
   
